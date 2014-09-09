@@ -24,7 +24,7 @@ article {
 article
 p{ 
 	color: green;
-	width: 90%;
+	width: 40%;
 }
 
 img{
@@ -57,3 +57,12 @@ footer{
 clear: both;
 }
 
+.right
+{
+float: right;
+}
+
+.left
+{
+float: left;
+}
