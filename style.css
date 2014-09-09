@@ -1,0 +1,59 @@
+head
+{ 
+text-align:center;
+}
+
+h1{ 
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+{ 
+	font-size: 26pt;
+}
+
+h3 { 
+	font-size: 20px;  
+	color: rgb(212,57,43);
+}
+
+article {
+	font-family: 'Shadows Into Light', cursive;
+	float: left;
+}
+article
+p{ 
+	color: green;
+	width: 90%;
+}
+
+img{
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+nav
+ul li { 
+display: inline;
+padding: 0 0.5em;
+}
+ul {
+list-style-type : none;
+text-align: center;
+}
+
+aside{
+width:20%;
+float:right;
+}
+
+section{
+width : 80%;
+float:left;
+}
+
+footer{
+clear: both;
+}
+
