@@ -5,38 +5,68 @@
 	<title>Blog Histoire de M. Minaudier</title>
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-<link href='style.css' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	<link href='style.css' rel='stylesheet'>
 </head>
 <body>
-<h1>Je vous ai compris !</h1>
-<img src="lhooq.jpg">
-<h2>L'Histoire autrement</h2>
-<nav>
-	<ul>
-		<li>Reines, Rois et dirigeants</li>
-		<li>Batailles</li>
-		<li>L'Inconnu du coin</li>
-		<li>Le quiz du héros</li>
-	</ul>
-</nav>
+<header> 
+	<h1>Je vous ai compris !</h1>
+		<img class="rounded" id="image"
+
+changer taille image
+		header src="lhooq.jpg">
+	<h2>L'Histoire autrement</h2>
+	<nav>
+		<ul>
+		<li>
+			<a href="#">
+				Reines, Rois et dirigeants
+			</a>
+		</li>
+
+		
+			<a href="#">
+				<li>Batailles</li>
+			</a>
+			<a href="#">
+				<li>L'Inconnu du coin</li>
+			</a>
+			<a href="#">
+				<li>Le quiz du héros</li>
+			</a>
+		</ul>
+	</nav>
+</header>
+
 <section>
 	<article class="left">
-		<h3> Tout sur Louis 13</h3>
+	
+	<h3> 
 		<img src="Louisxiii.jpg">
+		<span class="embiggen">Tout sur  </span>
+			<div class="amp">
+				<span>Louis 13
+				</span>
+			</div>
+		</h3>
+		
 		<p>Vie de Louis XIII
 		27 septembre 1601 au château de Fontainebleau et décédé le 14 mai 1643 au château neuf de Saint-Germain-en-Laye, est roi de France et de Navarre entre 1610 et 1643. Il est le fils de Henri IV et de Marie de Médicis.
 
 		Son règne est marqué par l’affaiblissement des grands et des protestants, la lutte contre la maison de Habsbourg et l'affirmation de la domination militaire française en Europe. L’image de ce roi est inséparable de celle de son principal ministre, le cardinal de Richelieu.
 
 		Il est le père du roi Louis XIV et de Philippe, fondateur de la maison Orléans dont est issu le roi Louis-Philippe Ier.
-
 		</p>
 
 	</article>
 	<article>
-		<h3>Article 2</h3>
-		<img src="louisxiv.jpg">
+		<h3 class="h3">Article 2 </h3>
+		<div class="parent">
+			<div class="hidden-box">
+    		I am a hidden message!
+    		</div>
+  			<img class="transparent" src="louisxiv.jpg">
+  			</div>
 		<p>Vie de Louis XIV
 		5 septembre 1638 à Saint-Germain-en-Laye et mort le 1er septembre 1715 à Versailles, est un roi de France et de Navarre. Il règne sur le royaume de France du 14 mai 1643 à sa mort le 1er septembre 1715.
 
@@ -47,7 +77,7 @@
 		</p>
 	</article>
 	<article class="right">
-		<h3>Article 3</h3>
+		<h3 class="h3">Article 3</h3>
 		<img src="Louisxv.jpg">
 		<p>Vie de Louis XV
 		Louis XV, dit le « Bien-Aimé », né le 15 février 1710 à Versailles et mort le 10 mai 1774 à Versailles, duc d'Anjou jusqu'au 8 mars 1712, dauphin de France du 8 mars 1712 au 1er septembre 1715, est un roi de France et de Navarre, membre de la Maison de Bourbon, dont le règne dure de 1715 à 1774.
@@ -55,10 +85,12 @@
 		Orphelin à l'âge de 2 ans, succédant à son arrière-grand-père Louis XIV à l'âge de cinq ans, il voit son pouvoir alors délégué à son grand-oncle, le duc d'Orléans, proclamé « régent du Royaume » le 2 septembre 1715, jusqu'au 15 février 1723, date de l'entrée du jeune roi dans sa treizième année, où il prend officiellement le contrôle du gouvernement.</p>
 	</article>
 	<article>
-		<h3>Article 4</h3>
-		<img src="Louisxvi.jpg">
-		<p>Vie de Louis XVI</p>
-		</article>
+		<h3 class="h3">Article 4</h3>
+			<img src="Louisxvi.jpg">
+		<p>Vie de Louis XVI
+		Louis XVI, né le 23 août 1754 à Versailles et guillotiné place de la Révolution à Paris le 21 janvier 1793, est roi de France et de Navarre de 1774 à 1791 puis roi des Français de 1791 à 1792.
+		</p>
+	</article>
 </section>
 <aside>
 	<i class="fa fa-star"></i>
@@ -69,14 +101,16 @@
         <input class="bouton" type="button" value="Rechercher" class="fa fa-search" /> <i class="fa fa-search"></i>
 	</form>
 	<p><i class="fa fa-star"></i></p>
-	<p>Derniers tweets</p>
+	<div>
+	<p>Derniers tweets sur l'histoire</p>
 	<a class="twitter-timeline"  href="https://twitter.com/hashtag/histoire" data-widget-id="509265619980541952">#histoire Tweets</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</aside>
-<footer>
-	<i class="fa fa-facebook"></i>
+    	</div>
+	</aside>
+	<footer>
+		<i class="fa fa-facebook"></i>
 	Je veux m'inscrire à la newsletter !
-	<i class="fa fa-twitter"></i>
-</footer>
+		<i class="fa fa-twitter"></i>
+	</footer>
 </body>
 </html>
