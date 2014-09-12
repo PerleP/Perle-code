@@ -16,37 +16,90 @@
 <link href='style.css' rel='stylesheet'>
 </head>
 
-<div class="container-fluid">
+<div class="container">
 <body>
 <header>
 Logo Marque BabiPerle
 </header>
 <h1>
-Le blog ou on parle de mode pour enfant mai pas que, car les minis-me aiment aussi voyager et s'amuser
+Le blog ou on parle de mode pour enfant mais pas que, car les minis-me aiment aussi voyager et s'amuser
 </h1>
 
-<nav>
+ <!-- Commentaires : début de la nav bar -->
+ <div class="container">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" class="fa fa-star">Home</a>
+    </div>
 
-	<ul>
-		<li>
-		<a href="#" class="fa fa-star">Mode
-		</a>
-		</li>
-		<li>
-		<a href="#" class="fa fa-star">Lookbook
-		</a>
-		</li>
-		<li>
-		<a href="#" class="fa fa-star">Marques enfants
-		</a>
-		</li>
-		<li>
-		<a href="#" class="fa fa-star">Voyager avec bébé
-		</a>
-		</li>
-	</ul>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-transparent">
+      	<li><a href="#" >Mode</a></li>
+        
+        <li><a href="#" >Lookbook</a></li>
+        
+        <li><a href="#" >Link</a></li>
+		
+		<li><a href="#" >Marques enfants</a></li>
 
-	<!--     La barre de navigation avec bootstrap sera fait le 12 septembre -->
+		<li><a href="#" >Voyager avec bébé</a></li>
+		
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Last babylook</a></li>
+        <li><a href="#">Last tweet </a></li>
+		<form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn btn-search-color">Recherche</button>
+      	</form>
+
+<!-- /.
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+
+        <!-- /.navbar-collapse pour faire le dropdown
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
 
 <div class="row">
@@ -95,16 +148,16 @@ Le blog ou on parle de mode pour enfant mai pas que, car les minis-me aiment aus
  	<div class="col-md-4">
   		<h2>Vidéos qu'on aime</h2>
 			<article>
-				<iframe width="560" height="315" src="http://www.youtube.com/embed/Y6gHMwdD9T0" frameborder="0" allowfullscreen>
+				<iframe width="" height="" src="http://www.youtube.com/embed/Y6gHMwdD9T0" frameborder="0" allowfullscreen>
 				</iframe>
 
-  			<iframe width="560" height="315" src="http://www.youtube.com/embed/UGrQcyO9K_8" frameborder="0"allowfullscreen>
+  			<iframe width="" height="" src="http://www.youtube.com/embed/UGrQcyO9K_8" frameborder="0"allowfullscreen>
 			</iframe>
 
 	</div>
 
-  <div class="col-xs-3 col-md-6">
-  	<article>
+  <div class="col-xs-3 col-md-6 ">
+  	<article class= center-content>
 			<h3>
 			La Perla Baby et Junior
 			</h3>
@@ -114,27 +167,40 @@ Le blog ou on parle de mode pour enfant mai pas que, car les minis-me aiment aus
 			</article>
   </div>
 </div>
-
 	</article>
-
-
-	<div class="row">
-	<div class="col-xs-3 col-md-4">
-		zeferez
-		</div>
-		</div>
-</section>
+	</section>
 </div>
-  <div class="col-md-2">
-  <section>
+
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/logo-marque-jacadi.jpg" alt="logo-marque-jacadi" class="img-thumbnail">
+      <div class="caption">
+    <section>
   	<article>
 		<h2>La marque Jacadi</h2>
 		<p> Des vêtements non seulement à la mode mais surtout des produits de qualité avec un choix de basics imtemporel...parole de maman et de mamie Domi.
-		<img src="images/logo-marque-jacadi.jpg" alt="logo-marque-jacadi" class="img-thumbnail">
+		
 		</p>
-	</article>
-  </section>
+		</article>
+
+        <p> <a href="" class="btn btn-default " role="button">Je veux trop lire la suite, moi </a></p>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-md-2">
+  
+  </section>
 </div>
 
 
@@ -149,20 +215,6 @@ Le “kidding” est né, surfant sur l’air du temps… Il est la raison d’�
 		</p>
 	</article
 	</section>
-
-
-	<div class="col-xs-6 col-md-4">
-  <section>
-  	<article>
-		<h2>Le magazine en ligne Milk</h2>
-		<p> La philosophie Milk magazine
-
-MilK, parce que nous avons tous un point commun, une enfance dont nous sommes nostalgiques. Et nous voilà avec pour mission : transmettre une éducation sincère qui enseigne aussi le goût des jolies choses. Ce moment fugace, nous voulons le vivre ensemble, comme un passage hédoniste où chaque moment est une occasion d’être esthète. MilK propose un voyage moderne dans le monde de l’enfance.
-		</p>
-	</article>
-</div>
-</div>
-
 <aside>
 <h3>Dernières news enfant, mode et sortie</h3>
 
