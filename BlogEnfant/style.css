@@ -120,8 +120,8 @@ background-color: #DEFAFF;
     white-space: nowrap;
 }
 
-.btn-search-color {
-background-color: rgba(255, 236, 100, 0.);
+.btn-color {
+background-color: rgb(255, 236, 100);
 }
 
 
