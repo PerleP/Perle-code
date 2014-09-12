@@ -2,6 +2,15 @@ header {
 	font-style: pt_sansregular;
 }
 
+header img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
 h1{ 
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
@@ -22,12 +31,17 @@ text-align: center;
 }
 
 body { 
-	font-family: pt_sansbold
-}
-p {
-text-align: justify;
+	font-family: pt_sansbold;
 }
 
+p {
+text-align: justify;
+font-size: 13px;
+}
+ 
+ .logo-babiperle {
+
+} 
 .center-content {
 border: 1px solid #DDD;
 border-radius: 4px;
@@ -76,11 +90,19 @@ background-color: #DEFAFF;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: rgba(43, 165, 179, 0.3);
 }
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 15px 15px;
+}
+
 .btn-default {
     background-color: rgba(39, 187, 204, 0.6);
     border-color: #ccc;
     color: #333;
 }
+
 .btn {
     -moz-user-select: none;
     background-image: none;
@@ -102,17 +124,6 @@ background-color: #DEFAFF;
 background-color: rgba(255, 236, 100, 0.);
 }
 
-/*
-.generic-hp h2.title {
-    background: url("http://images.asos.com/htmlpages/assets/HP-hr-background.gif") repeat-x scroll center center #FFFFFF;
-    font-family: futura-pt,Tahoma,Arial,Verdana,Sans-Serif;
-    font-size: 18px;
-    font-weight: normal;
-    letter-spacing: 1px;
-    text-align: center;
-    text-transform: uppercase;
-}
-*/
 
 @font-face {
     font-family: 'pt_sansbold';
