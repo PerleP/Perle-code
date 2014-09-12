@@ -7,6 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="uikit.min.css" />
+        <script src="jquery.js"></script>
+        <script src="uikit.min.js"></script>
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- Leave those next 4 lines if you care about users using IE8 -->
 <!--[if lt IE 9]>
@@ -27,7 +30,7 @@ Le blog où on parle de mode pour enfant mais pas que, car les minis-me aiment a
 
  <!-- Commentaires : début de la nav bar -->
  <div class="container">
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -144,17 +147,15 @@ Le blog où on parle de mode pour enfant mais pas que, car les minis-me aiment a
 			Achetez des vêtements de grandes marques pour enfant en ligne sur MELIJOE.COM. Vêtements, chaussures, accessoires pour enfant des plus grandes ...
 			</p>
 	</article>
+
 <div class="row">
  	<div class="col-md-4">
   		<h2>Vidéos qu'on aime</h2>
-			<article>
-				<iframe width="" height="" src="http://www.youtube.com/embed/Y6gHMwdD9T0" frameborder="0" allowfullscreen>
+				<iframe width="100%" height="" src="http://www.youtube.com/embed/Y6gHMwdD9T0" frameborder="0" allowfullscreen>
 				</iframe>
 
-  			<iframe width="" height="" src="http://www.youtube.com/embed/UGrQcyO9K_8" frameborder="0"allowfullscreen>
+  			<iframe width="100%" height="" src="http://www.youtube.com/embed/UGrQcyO9K_8" frameborder="0"allowfullscreen>
 			</iframe>
-
-	</div>
 
   <div class="col-xs-3 col-md-6 ">
   	<article class= center-content>
@@ -185,39 +186,53 @@ Le blog où on parle de mode pour enfant mais pas que, car les minis-me aiment a
 		</article>
 
         <p> <a href="" class="btn btn-default " role="button">Je veux trop lire la suite, moi </a></p>
+ 		</div>
+
+       <!--<h2>Sortie du week avec bébé</h2>
+		<p> Des sorties pour les petits ou les grands y trouveront aussi du plaisir autant pourles yeux que pour les papilles.
+		</p>
+		</article>
       </div>
     </div>
+
+
+ <!-- <div class="uk-overlay">
+<img src="" alt="">
+    <div class="uk-overlay-caption">-->
+
+
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-2">
-  
-  </section>
+	<div class="col-md-4">
+ 		 <section>
+  			<article>
+				<h2>Le magazine en ligne Milk</h2>
+				<p> La philosophie Milk magazinz
+MilK, parce que nous avons tous un point commun, une enfance dont nous sommes nostalgiques. Et nous voilà avec pour mission : transmettre une éducation sincère qui enseigne aussi le goût des jolies choses. Ce moment fugace, nous voulons le vivre ensemble, comme un passage hédoniste où chaque moment est une occasion d’être esthète. MilK propose un voyage moderne dans le monde de l’enfance. L’écriture photographique et l’illustration témoignent de notre désir de découvrir ensemble le monde encore inexploré de la mode enfantine. De l’art de vivre en famille aux derniers loisirs enfantins, tous les nouveaux domaines seront sillonnés.
+Le “kidding” est né, surfant sur l’air du temps… Il est la raison d’être de 
+				<a href="http://milkmagazine.net/">MilK</a>...
+				</p>
+				</article
+			</section>
+		</div>
 </div>
 
 
-  <div class="col-md-4">
-  <section>
-  	<article>
-		<h2>Le magazine en ligne Milk</h2>
-		<p> La philosophie Milk magazine
 
-MilK, parce que nous avons tous un point commun, une enfance dont nous sommes nostalgiques. Et nous voilà avec pour mission : transmettre une éducation sincère qui enseigne aussi le goût des jolies choses. Ce moment fugace, nous voulons le vivre ensemble, comme un passage hédoniste où chaque moment est une occasion d’être esthète. MilK propose un voyage moderne dans le monde de l’enfance. L’écriture photographique et l’illustration témoignent de notre désir de découvrir ensemble le monde encore inexploré de la mode enfantine. De l’art de vivre en famille aux derniers loisirs enfantins, tous les nouveaux domaines seront sillonnés.
-Le “kidding” est né, surfant sur l’air du temps… Il est la raison d’être de <a href="http://milkmagazine.net/">MilK</a>...
-		</p>
-	</article
-	</section>
+<div class="row">
+<div class="col-md-3">
 <aside>
-<h3>Dernières news enfant, mode et sortie</h3>
-
-            <a class="twitter-timeline"  href="https://twitter.com/hashtag/babystyle" data-widget-id="510026754618953728">#babystyle Tweets</a>
+	<h3>Dernières news enfant, mode et sortie</h3>
+		<a class="twitter-timeline"  href="https://twitter.com/hashtag/babystyle" data-widget-id="510026754618953728">#babystyle Tweets</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 </aside>
-
+</div> 
 
 <div class="row">
+
 <form class="form-inline" role="form">
   <div class="form-group">
     <label for="mail">Email</label>
@@ -232,6 +247,7 @@ Le “kidding” est né, surfant sur l’air du temps… Il est la raison d’�
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
+<script type="text/javascript" src="global.js"></script>
 </script>
 </body>
 </div>
