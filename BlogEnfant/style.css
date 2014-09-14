@@ -1,14 +1,16 @@
 header {
 	font-style: pt_sansregular;
 }
-
+/*color
 header img {
   border-radius: 50%;
   height: 100px;
 }
+*/
 
 .rounded {
-  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 h1{ 
@@ -27,7 +29,7 @@ list-style-type : none;
 text-align: center;
 }
 section {
-text-align: center;
+text-align:;
 }
 
 body { 
@@ -125,6 +127,11 @@ padding: 8px;
 background-color: rgb(255, 236, 100);
 }
 
+.btn-info {
+    background-color: #5BC0DE;
+    border-color: #46B8DA;
+}
+
 .thumbnail {
     background-color: #fff;
     border: 5px solid #ddd;
@@ -135,10 +142,19 @@ background-color: rgb(255, 236, 100);
     transition: all 0.2s ease-in-out 0s;
 }
 
-.btn-info {
-    background-color: #5BC0DE;
-    border-color: #46B8DA;
+.img-thumbnail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    height: auto;
+    line-height: 1.42857;
+    max-width: 70%;
+    padding: 4px;
+    transition: all 0.2s ease-in-out 0s;
 }
+
+
    
 @font-face {
     font-family: 'pt_sansbold';
