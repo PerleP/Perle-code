@@ -1,0 +1,71 @@
+Revoir les row et container : 
+
+
+
+
+
+<div class="col-md-6">
+<article>
+<h3>
+      La Perla Baby et Junior
+      </h3>
+      <p>
+      La grande marque de lingerie et vêtements d’intérieur La Perla habille aussi les plus petits dans la douceur du coton. La Perla Baby et La Perla Junior proposent des vêtements bébé La Perla ainsi que des pyjamas et sous-vêtements fille précieux et délicats. Inspirations romantiques et rétros, blanc crème, rose clair, ton sur ton, satin, cachemire, dentelle de Valencienne, crochet… chez La Perla, rien n’est trop beau pour les nouveau-nés et les filles. On craque pour les bodies bébé et pyjamas bébé La Perla raffinés et les ensembles fille La Perla pour les plus douces des nuits.
+      </p>
+  </article>
+  </section> 
+    </div>
+
+
+
+------
+
+
+<div class="container">
+<div class="row">
+  <div class="col-md-4">
+    
+    <div class="thumbnail">
+      <img src="images/logo-marque-jacadi.jpg" alt="logo-marque-jacadi" class="img-thumbnail" class="img-responsive">
+      <div class="caption">
+    <section>
+    <article>
+    <h2>La marque Jacadi</h2>
+    <p> Des vêtements non seulement à la mode mais surtout des produits de qualité avec un choix de basics imtemporel...parole de maman et de mamie Domi.
+    </p>
+    </article>
+    <p> <a href="" class="btn btn-default " role="button">Je veux trop lire la suite, moi </a></p>
+    </div>
+    </div>
+
+-------------
+<div class="col-md-4 ">
+ <div class="thumbnail">
+        <h2>Contenu statique de la home page</h2>
+          <article>Blablabla
+	         </article>
+        </div>
+      </div>
+
+<div class="col-md-4 ">
+<h2>
+    Le site e-commerce Melijoe
+    </h2>
+    <article>
+     <p>
+      Achetez des vêtements de grandes marques pour enfant en ligne sur MELIJOE.COM. Vêtements, chaussures, accessoires pour enfant des plus grandes ...
+      </p>
+  </article>  
+</div>
+</div>
+</div> 
+
+
+
+
+            <a class="twitter-timeline"  href="https://twitter.com/hashtag/babystyle" data-widget-id="510026754618953728">#babystyle Tweets</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+
+
+          Dernières news enfant, mode et sortie.

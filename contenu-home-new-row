@@ -1,0 +1,23 @@
+Contenu de la home draft :
+
+<div class="col-md-3 ">
+<h2>
+    Le site e-commerce Melijoe
+    </h2>
+    <article>
+     <p>
+      Achetez des vêtements de grandes marques pour enfant en ligne sur MELIJOE.COM. Vêtements, chaussures, accessoires pour enfant des plus grandes ...
+      </p>
+  </article>
+
+</div> 
+
+
+
+</div>
+
+  </div>
+</div> 
+
+<?php get_footer(); ?>
+
